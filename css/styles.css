@@ -5,7 +5,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
+
 .logotype {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -20,8 +22,8 @@ body {
   color: #2e2f42;
 }
 .logo-header {
-  /* margin-right: 76px; */
-  margin-right: ;
+  /* margin-right: 76px; для ДТ */
+  
 }
 .link-nav {
   color: #2e2f42;
@@ -76,12 +78,18 @@ body {
   text-align: center;
 }
 .hhh-text {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  font-weight: 500;
+  /* font-size: 20px; для ДТ 
+  line-height: 1.2; 
+  font-weight: 500;*/
   color: #2e2f42;
+  
+ font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
+  text-transform: capitalize;
 }
 .buttons {
   display: block;
@@ -122,7 +130,8 @@ body {
   max-width: 1440px;
 }
 .advantage-style {
-  padding: 120px 0;
+  /* padding: 120px 0; для ДТ */
+  padding: 96px 0;
   color: #2e2f42;
   font-weight: 400;
 }
@@ -132,6 +141,16 @@ body {
 }
 .main_text {
   color: #434455;
+/* ниже для мобильной версии */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+  font-family: Roboto;
+  font-style: normal;
 }
 .hh-text-center {
   text-align: center;
@@ -188,7 +207,7 @@ ul {
 .container {
   margin: 0 auto;
   /* width: 1158px; для ДТ */
-  min-width: 288px;
+  min-width: 320px;
   padding: 0 15px;
 }
 .link-font {
@@ -223,15 +242,14 @@ ul {
   /* height: 72px; для ДТ*/
   height: 56px;
   display: flex;
-  align-content: center;
+  align-items: center;
+  justify-content: space-between;
 
-  
 }
 .header-container-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* gap: 40px;  */
+  gap: 40px; 
 
 }
 .vmist-titel {
@@ -240,13 +258,13 @@ ul {
 
 }
 .advantage-items {
-  display: flex;
+  /* display: flex;
   gap: 24px;
-  align-items: stretch;
+  align-items: stretch; для ДТ*/
 }
 
 .advantage-size {
-  width: calc((100%-72px) / 4);
+  /* width: calc((100%-72px) / 4); для ДТ*/
 }
 
 .team-items {
@@ -305,7 +323,8 @@ img {
   align-items: flex-end;
 }
 .list-icon-advantage {
-  display: flex;
+  /* display: flex; для ДТ */
+  display: none;
   align-items: center;
   justify-content: center;
   height: 112px;
