@@ -700,9 +700,9 @@ font-weight: 400;
   flex-direction: column;
   justify-content: space-between;
 
-  /* opacity: 0;
+   opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none; 
 }
 .modal-close-menu {
   position: absolute;
