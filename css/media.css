@@ -2,7 +2,7 @@
     .container {
       max-width: 768px;
     }
-    .logotype {
+    .logo-header {
         margin-right: 120px;
       }
       .vmist-header
@@ -20,3 +20,22 @@
         flex-direction: column;
         gap: 12px;
       }
+      .titel-style {
+        padding: 112px 0;
+      }
+      .h-text {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+      }
+      .advantage-items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    max-width: 768px;
+      }
+      .advantage-size
+        {
+            width: calc((100% - 24px) / 2);
+          }
+      
