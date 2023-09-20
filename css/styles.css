@@ -322,7 +322,7 @@ ul {
   padding-bottom: 120px; */
   padding-top: 96px;
   padding-bottom: 96px;
-  width: 320px;
+  min-width: 320px;
 
 }
 .portfolio-items {
