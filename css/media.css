@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+    .logotype {
+        margin-right: 120px;
+      }
+      .vmist-header
+      {
+        height: 72px;
+      }
+      .menu-button {
+        display: none;
+      }
+      .link-font {
+        display: flex;
+      }
+      .link-adress {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
