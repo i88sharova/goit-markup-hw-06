@@ -102,8 +102,11 @@
       padding: 120px 0;
     }
     .container {
-      max-width: 1158px;
+        
+        width: 1158px;
+        
     }
+    
     .logo-header {
         margin-right: 76px;
         
@@ -132,7 +135,7 @@
          display: flex;
          flex-wrap: nowrap;
         gap: 24px;
-        align-items: stretch;
+         align-items: stretch;
       }
       .advantage-size {
      width: calc((100%-72px) / 4);
@@ -153,7 +156,12 @@
         width: calc((100% - 48px) / 3);
       }
       .list-icon-advantage {
-        display: flex; 
+        display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 264px;
+  margin-bottom: 8px;
     }
     .futter-soc-meregi {
          margin-right: 120px;
