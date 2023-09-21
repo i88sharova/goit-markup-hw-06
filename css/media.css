@@ -29,6 +29,7 @@
     max-width: 496px;
       }
       .advantage-items{
+        display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     display: flex;
@@ -88,6 +89,7 @@
 }
 .futter-soc-text {
     text-align: start;
+    font-weight: 500;
 }
 .futter-email-wr{
     
@@ -101,19 +103,28 @@
     section {
       padding: 120px 0;
     }
-    .container {
-        
-        width: 1158px;
-        
+    .container {   
+    width: 1158px;       
     }
     
     .logo-header {
         margin-right: 76px;
         
       }
+      .header-container-nav
+      {
+        gap:40px;
+      }
       .hhh-text {
          line-height: 1.2; 
          text-transform: none ;
+      }
+      .hhh-text-adv{
+        text-transform:none;
+        text-align: start;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
       }
       .team-member {
          width: calc((100% - 3 * 24px) / 4);
@@ -126,21 +137,23 @@
         flex-direction: row;
         font-size: 16px;
         gap: 40px;
-  padding: 24px 0;
+        padding: 24px 0;
       }
       .vmist-header {
         height: 72px;
       }
       .advantage-items {
-         display: flex;
-         flex-wrap: nowrap;
+        display: flex;
         gap: 24px;
-         align-items: stretch;
+        align-items: stretch;
       }
       .advantage-size {
      width: calc((100%-72px) / 4);
       }
       .team-items {
+         gap: 24px;
+         flex-direction: row;
+         text-align: center;
          gap: 24px;
       }
       .logo-futter {
@@ -149,19 +162,21 @@
         margin-right: 0;
       }
       .portfolio-style {
-        padding-top: 120px; для ДТ 
+        padding-top: 120px;
         padding-bottom: 120px;
     }
+    portfolio-items {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+      }
     .portfolio-date {
         width: calc((100% - 48px) / 3);
       }
       .list-icon-advantage {
         display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  width: 264px;
-  margin-bottom: 8px;
+
     }
     .futter-soc-meregi {
          margin-right: 120px;
@@ -175,7 +190,11 @@
         flex-direction: row;
         align-items: baseline;
       }
-      .modal-window{
+      .parag-logo {
+        margin-right: 120px;
+      }
+      .modal-window
+      {
         width: 408px;
   min-height: 584px; 
   padding-right: 24px;
