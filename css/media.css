@@ -25,8 +25,7 @@
         padding: 112px 0;
       }
       .h-text {
-    font-size: 56px;
-    line-height: 1.07;
+    
     max-width: 496px;
       }
       .advantage-items{
@@ -67,4 +66,126 @@
 }
 .portfolio-date{
      width: calc((100% - 24px) / 2); 
+}
+.futter-state {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline; 
+    padding-left: 108px;
+    gap: 72px 24px;
+    /* padding-right: 108px; */
+}
+.logo-futter {
+     display: inline-block; 
+    margin-bottom: 16px;
+    margin-right: 0; 
+    text-align: start;
+}
+.futter-email-wr{
+    display: flex;
+    flex-direction: row;
+}
+.futter-soc-text {
+    text-align: start;
+}
+.futter-email-wr{
+    
+    gap: 24px;
+}
+.modal-window {
+    width: 408px;
+}
+}
+@media (min-width: 1158px) {
+    section {
+      padding: 120px 0;
+    }
+    .container {
+      max-width: 1158px;
+    }
+    .logo-header {
+        margin-right: 76px;
+        
+      }
+      .hhh-text {
+         line-height: 1.2; 
+         text-transform: none ;
+      }
+      .team-member {
+         width: calc((100% - 3 * 24px) / 4);
+      }
+      .link-font {
+        display: flex;  
+      }
+      .link-adress {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        gap: 40px;
+  padding: 24px 0;
+      }
+      .vmist-header {
+        height: 72px;
+      }
+      .advantage-items {
+         display: flex;
+         flex-wrap: nowrap;
+        gap: 24px;
+        align-items: stretch;
+      }
+      .advantage-size {
+     width: calc((100%-72px) / 4);
+      }
+      .team-items {
+         gap: 24px;
+      }
+      .logo-futter {
+        display: inline-block; 
+        margin-bottom: 16px;
+        margin-right: 0;
+      }
+      .portfolio-style {
+        padding-top: 120px; для ДТ 
+        padding-bottom: 120px;
+    }
+    .portfolio-date {
+        width: calc((100% - 48px) / 3);
+      }
+      .list-icon-advantage {
+        display: flex; 
+    }
+    .futter-soc-meregi {
+         margin-right: 120px;
+      }
+      .futter-soc-text {
+         font-weight: 500;
+          max-width: 264px; 
+      }
+      .futter-state {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+      }
+      .modal-window{
+        width: 408px;
+  min-height: 584px; 
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.futter-email-wr{
+    display: flex;
+    gap: 24px; 
+    flex-direction: row;
+}
+}
+@media (resolution: 192dpi) {
+    .titel-style {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
 }
