@@ -32,9 +32,8 @@
         display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    display: flex;
     gap: 72px 24px;
-    width: 768px;
+    /* width: 768px; */
       }
       .advantage-size
         {
@@ -142,7 +141,7 @@
         height: 72px;
       }
       .advantage-items {
-        display: flex;
+    
         flex-wrap: nowrap;
         gap: 24px;
         
@@ -189,6 +188,8 @@
         display: flex;
         flex-direction: row;
         align-items: baseline;
+        padding-left:0;
+        flex-wrap:nowrap;
       }
       .parag-logo {
         margin-right: 120px;
