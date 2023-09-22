@@ -48,7 +48,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
-    width: 768px;
     align-items: center;
     justify-content: center;
       }
@@ -155,7 +154,7 @@
          gap: 24px;
          flex-direction: row;
          text-align: center;
-         gap: 24px;
+         
       }
       .logo-futter {
         display: inline-block; 
@@ -166,7 +165,7 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
-    portfolio-items {
+    .portfolio-items {
         display: flex;
         flex-wrap: wrap;
         column-gap: 24px;
@@ -176,7 +175,7 @@
         width: calc((100% - 48px) / 3);
       }
       .list-icon-advantage {
-        display: flex;
+         display: flex; 
 
     }
     .futter-soc-meregi {
