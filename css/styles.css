@@ -745,9 +745,6 @@ font-weight: 400;
 .item-color{
   color: #2e2f42;
 }
-.modal-address {
-  margin-bottom: 48px;
-}
 
   .modal-adress-item-color {
     color: #404bbf;
@@ -764,6 +761,11 @@ font-weight: 400;
 .modal-adress {
   margin-bottom: 48px;
 }
+.modal-adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;}
+  
 .modal-icon-list {
   display: flex;
   gap: 40px;
