@@ -686,7 +686,7 @@ font-weight: 400;
 }
 
 .modal-menu {
-  /* display: flex; */
+   display: flex; 
   position: fixed;
   top: 0;
   right: 0;
