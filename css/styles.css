@@ -322,6 +322,7 @@ ul {
   flex-direction: column;
   gap: 48px;
  margin: 0 auto;
+ align-items: center;
   /* max-width: 288px; */
 }
 .portfolio-date {
@@ -765,7 +766,7 @@ font-weight: 400;
   display: flex;
   flex-direction: column;
   gap: 24px;}
-  
+
 .modal-icon-list {
   display: flex;
   gap: 40px;
